@@ -12,7 +12,7 @@ else :
     
     LAB 2.2
     
-    a = float(input("enter first number"))
+a = float(input("enter first number"))
 b = float(input("enter second number"))
 c = float(input("enter third number"))
 if (a >= b) and (a >= c) :
@@ -23,6 +23,22 @@ else :
     print(c)
     
     LAB 2.3
+
+
+
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+c = int(input("enter third number: "))
+numbers = [a,b,c]
+unique_elements = []
+for i in numbers:
+    if i not in unique_elements:
+        unique_elements.append(i)
+print(f'существует {len(unique_elements)} уникальные элэменты ')
+
+     
+     
+
     
     
        
