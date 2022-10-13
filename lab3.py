@@ -26,11 +26,11 @@ if(numb <=n):
         
         
         lab3.4
-        a= int(input('enter a :'))
+a= int(input('enter a :'))
 for i in range(1, a+1):
     spaces =" " * (a-1)
     for x in range(1, i+1):
         spaces += str(x)
-        for k in range(i-1, 0, -1):
+    for k in range(i-1, 0, -1):
             spaces += str(k)
-print(spaces )
+    print(spaces )
